@@ -641,7 +641,7 @@ public class CompileLatestClientFrame {
       var36.setBackground(Color.WHITE);
       var35.add(var36, "Center");
       var36.setLayout(new BorderLayout(0, 0));
-      JLabel var37 = new JLabel("path to 1.8.8.jar:");
+      JLabel var37 = new JLabel("path to 1.12.2.jar:");
       var37.setFont(new Font("Dialog", 1, 12));
       var37.setVerticalAlignment(1);
       var37.setPreferredSize(new Dimension(46, 20));
@@ -657,7 +657,7 @@ public class CompileLatestClientFrame {
             String var2 = CompileLatestClientFrame.this.textField_JarFilePath.getText().trim();
             if (var2.length() == 0) {
                File var3 = CompileLatestClientFrame.getMinecraftDir();
-               File var4 = new File(var3, "versions/1.8.8");
+               File var4 = new File(var3, "versions/1.12.2");
                if (!var4.exists()) {
                   var4 = var3;
                }
